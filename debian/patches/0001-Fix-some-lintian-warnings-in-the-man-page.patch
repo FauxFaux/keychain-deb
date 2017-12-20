@@ -1,0 +1,32 @@
+From: Chris West <solo-github@goeswhere.com>
+Date: Tue, 28 Nov 2017 16:57:20 +0000
+Subject: Fix some lintian warnings in the man page
+
+---
+ keychain.pod | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/keychain.pod b/keychain.pod
+index b70dff5..7ab0bfb 100755
+--- a/keychain.pod
++++ b/keychain.pod
+@@ -4,8 +4,8 @@ keychain - re-use ssh-agent and/or gpg-agent between logins
+ 
+ =head1 SYNOPSIS
+ 
+-S<keychain [ -hklQqV ] [ --clear --confhost --gpg2 --help --ignore-missing --list --noask>
+-S<--nocolor --nogui --nolock --quick --quiet --version ]>
++S<keychain [ -hklQqV ] [ --clear --confhost --gpg2 --help --ignore-missing --list>
++S<--noask --nocolor --nogui --nolock --quick --quiet --version ]>
+ S<[ --agents I<list> ] [ --attempts I<num> ] [ --dir I<dirname> ]>
+ S<[ --host I<name> ] [ --lockwait I<seconds> ]>
+ S<[ --stop I<which> ] [ --timeout I<minutes> ] [ keys... ]>
+@@ -196,7 +196,7 @@ specified if they haven't yet been added to ssh-agent.
+ 
+ =item B<--nocolor>
+ 
+-Disable color hilighting for non ANSI-compatible terms.
++Disable color highlighting for non ANSI-compatible terms.
+ 
+ =item B<--nogui>
+ 
