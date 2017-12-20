@@ -1,10 +1,10 @@
 Source: keychain
 Section: net
-Priority: extra
+Priority: optional
 Maintainer: Chris West <debian@fau.xxx>
 Uploaders: Ondřej Surý <ondrej@debian.org>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.8
+Standards-Version: 4.1.2
 Homepage: http://www.funtoo.org/Keychain
 Vcs-Git: https://anonscm.debian.org/git/collab-maint/keychain.git
 Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/keychain.git
