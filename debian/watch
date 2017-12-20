@@ -1,0 +1,3 @@
+version=2
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/keychain-$1\.tar\.gz/ \
+  https://github.com/funtoo/keychain/tags .*/v?(\d\S+)\.tar\.gz
