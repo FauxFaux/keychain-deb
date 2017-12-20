@@ -1,7 +1,7 @@
 Source: keychain
 Section: net
 Priority: extra
-Maintainer: Cesar Mendoza <mendoza@debian.org>
+Maintainer: Chris West <debian@fau.xxx>
 Uploaders: Ondřej Surý <ondrej@debian.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
